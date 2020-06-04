@@ -1,0 +1,222 @@
+/* ----------------- Import Fonts ---------------------- */
+
+@import url(../css/fonts.css); 
+
+/* --------x-------- Import Fonts --------x-------- */
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Poppins-Medium;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    padding: 5px 20px;
+}
+
+.logo {
+    font-size: 38px !important ;
+    font-family: Lobster-Regular;
+}
+
+.navbar-nav {
+    margin-left: auto;
+    font-size: 16px;
+}
+
+.box {
+    text-align: center;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    margin: 50px auto !important;
+    padding: 10px 80px !important;
+    height: 170px;
+    max-width: 600px;
+}
+
+.box:hover {
+    box-shadow: 0px 0px 25px rgba(128, 128, 128, 0.418);
+    transition: ease 0.3s;
+    border: 1px solid gray;
+}
+
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-price {
+    margin:auto;
+    font-size: px !important;
+    font-weight: bold;
+}
+
+.about-sixteen-clothing {
+    padding-top: 100px;
+}
+
+.para{
+    font-family: Poppins-Medium;
+    font-size: 14px;
+    line-height: 2em;
+    margin-top: 20px;
+}
+
+.copyright {
+    font-size: 14px;
+    padding-top: 18px;
+    background-color: #ca0e21;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+
+.card-text , .card-body-cascade>p {
+    font-size: 14px;
+}
+
+.card {
+    border: none;
+}
+
+/* .go-back a {
+    text-decoration: none;
+    font-size: 20px;
+    color:#fff ;
+    background-color:rgb(247, 55, 55);
+    padding: 5px 20px;
+    border-radius: 5px;
+
+} */
+
+
+
+/* --------------------- Abouts Page -----------------------  */
+
+
+.social_icons li {
+    list-style: none;
+    display: inline-block;
+    margin: 5px 10px;
+}
+
+.social_icons li {
+    background-color: #f1f1f1;
+    color: #000000;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.social_icons li:hover {
+    background-color: rgb(219, 21, 21);
+    color: #fff;
+    transition: ease-in 0.2s;
+    cursor: pointer;
+}
+
+.social_icons > li >a {
+    list-style: none;
+    color: black;
+}
+
+.footer-heading::after {
+    content: "";
+    position: relative;
+    top: 0px;
+    left: 0px;
+    border-bottom: 2px solid red;
+    max-width: 100%;
+    display: block;
+    margin: 5px 0px;
+}
+
+/* --------------------------- Log in Page -------------------------------------- */
+
+
+.card-signin {
+    border: 0;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+.form-signin .btn {
+    font-size: 80%;
+    border-radius: 5rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    padding: 1rem;
+    transition: all 0.2s;
+}
+
+.form-label-group input {
+    height: auto;
+    border-radius: 2rem;
+}
+
+.btn-google {
+    color: white;
+    background-color: #ea4335;
+}
+
+.btn-facebook {
+    color: white;
+    background-color: #3b5998;
+}
+
+
+/* ------x----x---------- Log in Page ----------x----x------- */
+
+
+
+
+/*-------------------- MEDIA QUERIES -------------------------*/
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 767px) { 
+   
+      * {
+          text-align: center;
+          list-style: none;
+      }
+
+      .box {
+        margin: 20px !important;
+    }
+ }
+
+/* Small devices (767.98px and below) */
+@media (min-width: 0px) and (max-width: 767.98px) { 
+    .row_partition {
+        display: none;
+    }
+
+    .feature-image {
+        display: none;
+      }
+ }
+
+
+/* Apply styles starting from small devices and up to L-Laptop -------------------*/
+@media (min-width: 320px) and (max-width: 1199px) { 
+    .feature-image {
+        display: none;
+      }
+
+      iframe {
+          width: auto;
+          margin-bottom: 20px;
+      }
+
+ }
